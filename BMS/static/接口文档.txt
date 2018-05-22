@@ -1,0 +1,170 @@
+1.登录/注册(post)：
+  URL：/login 
+  请求参数：{ "username": "admin", "password": "123" }
+  返回结果：
+          { "login": true, "msg": "登录成功！！！" }
+          { "login": false, "msg": "用户名不存在！！！" }
+          { "login": false, "msg": "密码错误！！！" }
+  URL：/register
+  请求参数：{ 
+            "username": "aaaa", "password": "aaa",
+            "dept": { "deptName":"信息中心","supperDeptName":"烟台市国税局","deptId":"111111","supperDeptId":"000000" },
+            "phone":"131313131321"
+          }
+  返回结果： 
+          { "register": true, "msg": "注册成功！！！" }
+          { "register": false, "msg": "该用户名已存在！！！" }
+          { "register": false, "msg": "注册成功！！！" }
+2.用户管理：
+  (1)获取所有用户(get)：
+    URL：/main/users/getAllUser
+    返回结果：
+            {
+              "users": [
+                {
+                  "username": "admin0",
+                  "userid": "F3244242324f",
+                  "password": "213213jklfaj",
+                  "phone": "123213131",
+                  "dept": { "deptName": "信息中心", "deptId": "111111" },
+                  "role": { "roleName": "user", "roleDescribe": "普通用户" }
+                },
+                {
+                    "username": "admin0",
+                    "userid": "F3244242324f",
+                    "password": "213213jklfaj",
+                    "phone": "123213131",
+                    "dept": { "deptName": "信息中心", "deptId": "111111" },
+                    "role": { "roleName": "user", "roleDescribe": "普通用户" }
+                }
+              ]
+            }
+  (2)增加用户(post)：
+    URL：/main/users/addUser
+    请求参数：(新增加的用户) 
+            {
+              "username": "张三", "password": "123", "phone": "1214313",
+              "userid": "",
+              "dept": { "deptName":"信息中心","supperDeptName":"烟台市国税局","deptId":"111111","supperDeptId":"000000" },
+              "role": { "roleName":"admin","roleDescribe":"管理员" }
+            }
+    返回结果：
+            { "addUser": true, "msg": "用户添加成功！！！" }
+            { "addUser": false, "msg": "用户添加失败！！！" }
+  (3)编辑用户(post)：
+    URL：/main/users/updateUser
+    请求参数：(originalUser: 要修改的用户，modifiedUser：修改后的用户)
+            {
+              "originalUser":
+              {
+                "username":"admin0",
+                "userid": "F3244242324f",
+                "password":"213213jklfaj",
+                "phone":"123213131",
+                "dept":{ "deptName":"信息中心","supperDeptName":"烟台市国税局","deptId":"111111","supperDeptId":"000000" },
+                "role":{ "roleName":"admin","roleDescribe":"管理员" }
+              },
+              "modifiedUser":
+              {
+                "username":"admin0",
+                "username":"F3244242324f",
+                "password":"213213jklfaj",
+                "phone":"123213131",
+                "dept":{"deptName":"信息中心","supperDeptName":"烟台市国税局","deptId":"111111","supperDeptId":"000000"},
+                "role":{"roleName":"admin","roleDescribe":"管理员"}
+              }
+            }
+    返回结果：
+            { "updateUser": true, "msg": "用户修改成功！！！" }
+            { "updateUser": false, "msg": "用户修改失败！！！" }
+  (4)删除用户(post)：
+    URL：/main/users/deleteUser
+    请求参数(要删除的用户)：
+            { 
+              "username":"admin", 
+              "userid":"F3244242324f",
+              "password":"213213jklfaj",
+              "phone":"123213131",
+              "dept":{"deptName":"信息中心","supperDeptName":"烟台市国税局","deptId":"111111","supperDeptId":"000000"},
+              "role":{"roleName":"admin","roleDescribe":"管理员"}
+            }
+    返回结果：
+            { "deleteUser": true, "msg": "用户删除成功！！！" }
+            { "deleteUser": false, "msg": "用户删除失败！！！" }
+3.部门管理：
+  (1)获取所有部门(get)：
+    URL：/main/departments/getAllDept
+    返回结果：
+            {
+              "depts":
+                [
+                  {
+                    "deptName": "信息中心",
+                    "supperDeptName": "烟台市国税局",
+                    "deptId": "111111",
+                    "supperDeptId": "000000"
+                  },
+                  {
+                    "deptName": "技术运维中心",
+                    "supperDeptName": "信息中心",
+                    "deptId": "222222",
+                    "supperDeptId": "111111"
+                  }
+                ]
+            }
+  (2)增加部门(post)：
+    URL：/main/departments/addDepartment
+    请求参数：(新增加的部门) 
+            {
+              "deptName":"13131",
+              "supperDeptName":"14144",
+              "deptId": "",
+              "supperDeptId": ""
+            }
+    返回结果：
+            { "addDept": true, "msg": "部门添加成功！！！" }
+            { "addDept": false, "msg": "部门添加失败！！！" }
+  (3)编辑部门(post)：
+    URL：/main/departments/updateDept
+    请求参数：(originalDept: 要修改的部门，modifiedDept：修改后的部门)
+            {
+              "originalDept":
+              {
+                "deptName": "信息中心",
+                "supperDeptName": "烟台市国税局",
+                "deptId": "",
+                "supperDeptId": ""
+              },
+              "modifiedDept":
+              {
+                "deptName": "技术运维中心",
+                "supperDeptName": "信息中心",
+                "deptId": "",
+                "supperDeptId": ""
+              }
+            }
+    返回结果：
+            { "updateDept": true, "msg": "部门修改成功！！！" }
+            { "updateDept": false, "msg": "部门修改失败！！！" }
+  (4)删除部门(post)：
+    URL：/main/departments/deleteDept
+    请求参数(要删除的部门)：
+            {
+              "deptName": "信息中心",
+              "supperDeptName": "烟台市国税局",
+              "deptId": "111111",
+              "supperDeptId": "000000"
+            },
+    返回结果：
+            { "deleteDept": true, "msg": "部门删除成功！！！" }
+            { "deleteDept": false, "msg": "部门删除失败！！！" }
+
+res => {
+          // console.log(res);
+          this.items = res.data.users;
+        }
+
+function(res) {
+   // console.log(res);
+          this.items = res.data.users;
+}

@@ -1,0 +1,17 @@
+{
+  "depts":
+    [
+      {
+        "deptName": "信息中心",
+        "superDeptName": "烟台市国税局",
+        "deptId": "111111",
+        "superDeptId": "000000"
+      },
+      {
+        "deptName": "技术运维中心",
+        "superDeptName": "信息中心",
+        "deptId": "222222",
+        "superDeptId": "111111"
+      }
+    ]
+}

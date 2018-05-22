@@ -1,0 +1,41 @@
+{
+    "users": [
+        {
+          "username": "admin0",
+          "userid": "F3244242324f",
+          "password": "213213jklfaj",
+          "phone": "123213131",
+          "role": { "roleName": "user", "roleDescribe": "普通用户" },
+          "myCollectBooks": [ { "id": "1" }, { "id": "3" } ],
+          "mySubscribeBooks": [ { "id": "1" } ]
+        },
+        {
+            "username": "admin0",
+            "userid": "F3244242324f",
+            "password": "213213jklfaj",
+            "phone": "123213131",
+            "role": { "roleName": "user", "roleDescribe": "普通用户" },
+            "myCollectBooks": [],
+            "mySubscribeBooks": []
+        },
+        {
+            "username": "admin0",
+            "userid": "F3244242324f",
+            "password": "213213jklfaj",
+            "phone": "123213131",
+            "role": { "roleName": "user", "roleDescribe": "普通用户" },
+            "myCollectBooks": [],
+            "mySubscribeBooks": []
+        },
+        {
+            "username": "admin0",
+            "userid": "F3244242324f",
+            "password": "213213jklfaj",
+            "phone": "123213131",
+            "role": { "roleName": "user", "roleDescribe": "普通用户" },
+            "myCollectBooks": [],
+            "mySubscribeBooks": []
+          }
+  
+      ]
+}
