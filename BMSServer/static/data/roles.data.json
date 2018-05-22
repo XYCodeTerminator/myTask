@@ -1,0 +1,12 @@
+{
+  "roles": [
+    { 
+      "roleName": "user",
+      "roleDescribe": "普通用户"
+    },
+    {
+      "roleName": "admin",
+      "roleDescribe": "管理员"
+    }
+  ]
+}

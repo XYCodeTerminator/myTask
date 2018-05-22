@@ -1,0 +1,33 @@
+{
+    "users": [
+        {
+          "username": "admin0",
+          "userid": "F3244242324f",
+          "password": "213213jklfaj",
+          "phone": "123213131",
+          "role": { "roleName": "user", "roleDescribe": "普通用户" }
+        },
+        {
+            "username": "admin0",
+            "userid": "F3244242324f",
+            "password": "213213jklfaj",
+            "phone": "123213131",
+            "role": { "roleName": "user", "roleDescribe": "普通用户" }
+        },
+        {
+            "username": "admin0",
+            "userid": "F3244242324f",
+            "password": "213213jklfaj",
+            "phone": "123213131",
+            "role": { "roleName": "user", "roleDescribe": "普通用户" }
+        },
+        {
+            "username": "admin0",
+            "userid": "F3244242324f",
+            "password": "213213jklfaj",
+            "phone": "123213131",
+            "role": { "roleName": "user", "roleDescribe": "普通用户" }
+          }
+  
+      ]
+}

@@ -1,0 +1,22 @@
+图书管理系统项目简介：
+  1.整个项目采用前后端分离，各自开发的方式，前端提供静态页面并设计接口数据类型，后端仅提供API接口供前端调用获取数据；
+  2.开发过程中前端通过Vue-Cli中提供的proxyTable进行代理，由此可跨域调用Node编写的API；
+  3.前后端开发完成正式部署时，前端通过webpack打包压缩，后端渲染前端打包后的文件进行部署。
+
+  a.前端：
+    通过Vue开发静态页面，引用大量Vuetify框架中的组件；
+    通关Vue-Router分配路由，控制页面跳转；
+    Vuex控制Vue组件间的数据交互；
+    前端用到的框架：核心框架vue、vue第三方组件库vuetify、vue-router、vuex、webpack相关打包及加载框架、
+        axios、vue-quill-editor富文本编辑器、vue-carousel-3d三维轮播图、vue2-dropzone拖拽上传组件等。
+  b.后端：
+    后端通过NodeJS+Express框架进行编写。
+    通过mongodb框架链接mongodb数据库并封装一些增删改查语句。
+    后端用到的框架：核心框架express、multer文件上传解析器、
+        以及express的中间件：cookie-parser、cookie-session、body-parser等。
+
+功能介绍：
+  1.访问127.0.0.1:8080 进入到注册页面，注册后自动跳转到登录界面
+  2.目前共有3种角色：user（普通用户）， admin（管理员）， superAdmin（超级管理员）分别对应不同的权限。
+  3.注册的用户均为普通用户（user角色）。超级管理员具有最高权限，可在用户管理界面更改用户的角色以控制其权限。
+  4.超级管理员账号：superAdmin 密码：123

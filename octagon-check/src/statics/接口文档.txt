@@ -1,0 +1,45 @@
+模块一：八角年审
+  1.关于我们(get)：
+    URL: /getContent?type=aboutUs
+
+  2.服务特色(get)：
+    URL: /getContent?type=serviceFeature
+ 
+  3.客户之声（get）：
+    URL：/getContent?type=customerVoice
+
+
+模块二：业务办理
+  1.登记注册（post）:
+    URL：/register
+    请求参数：
+          {
+            name: '姓名',
+            phone: '手机号',
+            plateNum: '车牌号',
+            files: [ { realPath: "" }, { realPath: "" }, .... ],
+          }
+    URL: /upload
+
+  2.年审预约(post)
+    URL: /order
+    请求参数：
+          {
+            name: '姓名',
+            phone: '手机号',
+            plateNum: '车牌号',
+            orderType: '预约类型'
+            orderDate: '预约时间'
+            paymentMethod: '支付方式'
+          }
+    2.1.预约记录（get）
+      URL: getOrders?pageIndex=1&pageAmount=9
+
+  3.违章查询
+
+模块三：便民服务：
+  1.行业资讯(get)：
+    URL：/getContent?type=industryInfo
+
+  2.检车流程：
+    URL：/getContent?type=checkProcess

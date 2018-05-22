@@ -1,0 +1,226 @@
+{
+    "books": [
+        {
+          "id": "01",
+          "name": "PROGRAMMER WITH CAT",
+          "category": "科普类",
+          "stock": 14,
+          "left": 3,
+          "publishTime": "2018-04-25",
+          "price": "20",
+          "content" :"<h1><strong>程序员为什么热衷于养猫？</strong></h1><p><br></p><p><strong><em><img src='http://img.mp.itc.cn/upload/20170704/b79cb3b6dff6475aa6c1da815183b2a5_th.jpg'></em></strong></p><p><br></p><p><strong class='ql-size-large'>因为喵星人简直就是程序员的化身</strong></p><p><strong class='ql-size-large'>不信的话这些是证据：</strong></p><p><strong>1。首先，程序员喜欢键盘，猫也喜欢。</strong></p><p><strong><em><img src='http://img.mp.itc.cn/upload/20170704/3455d827ece14159b49e7da87a84cadb_th.jpg'></em></strong></p><p><strong><em><img src='http://img.mp.itc.cn/upload/20170704/57386d8cdd2040cabb64796066c16636_th.jpg'></em></strong></p><p><strong><em>2. 程序员和喵星人都喜欢鼠标</em></strong></p><p><strong><em><img src='http://img.mp.itc.cn/upload/20170704/94cd2ab22f0f4457b5c934b43073993d.jpg'></em></strong></p><p><strong><em>3.程序员会打字，猫也会打字。</em></strong></p><p><strong><em><img src='http://img.mp.itc.cn/upload/20170704/9c22e0cc3eb34737a0f5e207244e25c0.jpg'></em></strong></p><p><strong><em><img src='http://img.mp.itc.cn/upload/20170704/4e85ce7485584fc6ac9c02a9a68966e6.jpg'></em></strong></p><p><strong><em>4. 别的程序员享受陪你敲代码，</em></strong></p><p><strong><em>同样的喵星人也会陪你敲代码，</em></strong></p><p><strong><em>但是你老婆不会，你老板更不会。</em></strong></p><p><strong><em><img src='http://img.mp.itc.cn/upload/20170704/fa5fdd38ffc844b5b81bd122c6b95dbc_th.jpg'></em></strong></p><p><strong><em>5. 程序员这个职业很多时候是挺孤单的，只跟电脑打交道。虽然程序猿们都很享受这个只有他自己和那台电脑的世界，但是还是需要一个伙伴来填满内心的洞。同理，喵星人也独来独往，但是偶尔也需要找铲屎官的陪伴。</em></strong></p><p><strong><em><img src='http://img.mp.itc.cn/upload/20170704/114a646d2d434a849be411eedb9974e2.jpg'></em></strong></p><p><strong><em>6. 如果你离开座位但是屏幕开着，喵星人会坐在你座位上，然后在你回来的时候跟你说：你丫代码写的真垃圾，要不要我教你怎么写。</em></strong></p><p><strong><em><img src='http://img.mp.itc.cn/upload/20170704/3be7c2e2187643ea8548e61be6943b5c.jpg'></em></strong></p><p><strong><em>7. 喵星人每天没时间吃饭，</em></strong></p><p><strong><em>每顿饭基本上都是几口凑活过的。</em></strong></p><p><strong><em><img src='http://img.mp.itc.cn/upload/20170704/683fc726167e467a8ad54991ae9148f9_th.jpg'></em></strong></p><p><strong><em>8. 喵星人认为，花的功夫越少，</em></strong></p><p><strong><em>事情就算做的越成功。</em></strong></p><p><strong><em><img src='http://img.mp.itc.cn/upload/20170704/6e8d7ba3e1dd417b89b093900f8b01c4.jpg'></em></strong></p><p><strong><em>9. 喵星人很容易被无聊的事物吸引，比如屏幕上晃动的鼠标，或者屏幕上滚滚而下的命令行。</em></strong></p><p><strong><em><img src='http://img.mp.itc.cn/upload/20170704/0b1d0d6faf6148fea433ed5077fedc5b_th.jpg'></em></strong></p><p><strong><em>10. 当喵星人觉得键盘，或者屏幕上的事情不再有意思，它就会找个地方睡觉，或者找吃的，或者盯着窗外发呆。</em></strong></p><p><strong><em><img src='http://img.mp.itc.cn/upload/20170704/cb0f3c4797484d2aabf25b3c9fb0e622_th.jpg'></em></strong></p><p><strong><em>11. 你在凌晨三点的厨房里最有可能碰到两种生物，偷吃东西的喵星人，和偷吃东西的程序猿。</em></strong></p><p><strong><em><img src='http://img.mp.itc.cn/upload/20170704/864210ef72174899ba126004cb11e470_th.jpg' width='392' style='display: inline; margin: 0px 1em 1em 0px; float: left;'></em></strong></p><p><br></p>",
+          "images": [
+            { "src": "static/images/cat01.jpeg" },
+            { "src": "static/images/cat02.jpeg" },
+            { "src": "static/images/3.jpg" },
+            { "src": "static/images/4.jpg" },
+            { "src": "static/images/5.jpg" },
+            { "src": "static/images/6.jpg" }
+          ],
+          "collectors": [
+            { "username": "Sunrise" },
+            { "username": "Sunset" }
+          ],
+          "subscribers": [
+            { "username": "Sunrise" },
+            { "username": "Sunset" }
+          ]
+        },
+        {
+          "id": "02",
+          "name": "胧村正鬼助篇",
+          "category": "游戏",
+          "stock": 14,
+          "left": 3,
+          "publishTime": "2018-04-25",
+          "price": "20",
+          "content" :"这个世界中有数把妖刀，那是一旦被拔出来就必须要吸血的刀。原本充满神气的名刀长时间被充满憎恨的血潮所侵染从而转化为充满阴气与妖气的妖刀。手持妖刀的人会逐渐沉溺于杀人的快乐之中并最终死于非命。那是元禄年间，将军德川纲吉统治的时代。在太平盛世中却有妖之气息。围绕妖刀进行争斗的人们，其欲望、仁义、迷惘、纷争引来了魑魅魍魉，将龙神鬼神也卷入了战火的劫难之中。为了收集失传已久的妖刀，鬼助和百姬在日本各地搜寻散落的妖刀。",
+          "images": [
+            { "src": "static/images/lcz1.PNG" },
+            { "src": "static/images/lcz2.PNG" },
+            { "src": "static/images/lcz3.PNG" },
+            { "src": "static/images/lcz4.PNG" },
+            { "src": "static/images/lcz5.PNG" }
+          ],
+          "collectors": [],
+          "subscribers": []
+        },
+        {
+          "id": "03",
+          "name": "胧村正妖刀传",
+          "category": "游戏",
+          "stock": 14,
+          "left": 3,
+          "publishTime": "2018-04-25",
+          "price": "20",
+          "content" :"这个世界中有数把妖刀，那是一旦被拔出来就必须要吸血的刀。原本充满神气的名刀长时间被充满憎恨的血潮所侵染从而转化为充满阴气与妖气的妖刀。手持妖刀的人会逐渐沉溺于杀人的快乐之中并最终死于非命。那是元禄年间，将军德川纲吉统治的时代。在太平盛世中却有妖之气息。围绕妖刀进行争斗的人们，其欲望、仁义、迷惘、纷争引来了魑魅魍魉，将龙神鬼神也卷入了战火的劫难之中。为了收集失传已久的妖刀，鬼助和百姬在日本各地搜寻散落的妖刀。",
+          "images": [
+            { "src": "static/images/13.jpg" },
+            { "src": "static/images/10.jpg" },
+            { "src": "static/images/11.jpg" },
+            { "src": "static/images/12.jpg" },
+            { "src": "static/images/14.jpg" },
+            { "src": "static/images/15.jpg" },
+            { "src": "static/images/16.jpg" }
+          ],
+          "collectors": [],
+          "subscribers": []
+        },
+        {
+          "id": "03",
+          "name": "软件工程",
+          "category": "计算机类",
+          "stock": 14,
+          "left": 3,
+          "publishTime": "2018-04-15",
+          "price": "20",
+          "content" :"本书是学习C语言程序设计的基础教程，内容包括C语言概述、顺序结构程序设计、分支结构程序设计、循环结构程序设计、数组、函数、指针、结构体、文件等。 本书以程序设计思想的掌握为主线，以编程应用为驱动，通过案例和问题引入内容，由浅入深，循序渐进，重点训练学生的编程思想，能够充分提高学生的编程能力，锻炼学生的工程能力和创新能力，并鼓励学生利用所学C语言知识解决专业的具体问题。 本书是为“卓越工程师教育培养计划”本科专业编写的计算机教材，强化编程能力、工程能力和创新能力； 也可以作为其他应用型本科理工类专业的计算机应用教材。",
+          "images": [
+            { "src": "static/images/3.jpg" }
+          ],
+          "collectors": [],
+          "subscribers": []
+        },
+        {
+          "id": "04",
+          "name": "算法与导论",
+          "category": "计算机类",
+          "stock": 14,
+          "left": 3,
+          "publishTime": "2018-04-15",
+          "price": "20",
+          "content" :"本书是学习C语言程序设计的基础教程，内容包括C语言概述、顺序结构程序设计、分支结构程序设计、循环结构程序设计、数组、函数、指针、结构体、文件等。 本书以程序设计思想的掌握为主线，以编程应用为驱动，通过案例和问题引入内容，由浅入深，循序渐进，重点训练学生的编程思想，能够充分提高学生的编程能力，锻炼学生的工程能力和创新能力，并鼓励学生利用所学C语言知识解决专业的具体问题。 本书是为“卓越工程师教育培养计划”本科专业编写的计算机教材，强化编程能力、工程能力和创新能力； 也可以作为其他应用型本科理工类专业的计算机应用教材。",
+          "images": [
+            { "src": "static/images/2.jpg" },
+            { "src": "static/images/3.jpg" },
+            { "src": "static/images/4.jpg" }
+          ],
+          "collectors": [],
+          "subscribers": []
+        },
+        {
+          "id": "05",
+          "name": "汇编语言",
+          "category": "计算机类",
+          "stock": 14,
+          "left": 3,
+          "publishTime": "2018-04-15",
+          "price": "20",
+          "content" :"本书是学习C语言程序设计的基础教程，内容包括C语言概述、顺序结构程序设计、分支结构程序设计、循环结构程序设计、数组、函数、指针、结构体、文件等。 本书以程序设计思想的掌握为主线，以编程应用为驱动，通过案例和问题引入内容，由浅入深，循序渐进，重点训练学生的编程思想，能够充分提高学生的编程能力，锻炼学生的工程能力和创新能力，并鼓励学生利用所学C语言知识解决专业的具体问题。 本书是为“卓越工程师教育培养计划”本科专业编写的计算机教材，强化编程能力、工程能力和创新能力； 也可以作为其他应用型本科理工类专业的计算机应用教材。本书是学习C语言程序设计的基础教程，内容包括C语言概述、顺序结构程序设计、分支结构程序设计、循环结构程序设计、数组、函数、指针、结构体、文件等。 本书以程序设计思想的掌握为主线，以编程应用为驱动，通过案例和问题引入内容，由浅入深，循序渐进，重点训练学生的编程思想，能够充分提高学生的编程能力，锻炼学生的工程能力和创新能力，并鼓励学生利用所学C语言知识解决专业的具体问题。 本书是为“卓越工程师教育培养计划”本科专业编写的计算机教材，强化编程能力、工程能力和创新能力； 也可以作为其他应用型本科理工类专业的计算机应用教材。",
+          "images": [
+            { "src": "static/images/5.jpg" },
+            { "src": "static/images/6.jpg" },
+            { "src": "static/images/5.jpg" }
+          ],
+          "collectors": [],
+          "subscribers": []
+        },
+        {
+          "id": "06",
+          "name": "数据库概论",
+          "category": "计算机类",
+          "stock": 14,
+          "left": 3,
+          "publishTime": "2018-04-15",
+          "price": "20",
+          "content" :"本书是学习C语言程序设计的基础教程，内容包括C语言概述、顺序结构程序设计、分支结构程序设计、循环结构程序设计、数组、函数、指针、结构体、文件等。 本书以程序设计思想的掌握为主线，以编程应用为驱动，通过案例和问题引入内容，由浅入深，循序渐进，重点训练学生的编程思想，能够充分提高学生的编程能力，锻炼学生的工程能力和创新能力，并鼓励学生利用所学C语言知识解决专业的具体问题。 本书是为“卓越工程师教育培养计划”本科专业编写的计算机教材，强化编程能力、工程能力和创新能力； 也可以作为其他应用型本科理工类专业的计算机应用教材。",
+          "images": [
+            { "src": "static/images/6.jpg" }
+          ],
+          "collectors": [],
+          "subscribers": []
+        },
+        {
+          "id": "07",
+          "name": "数据库应用",
+          "category": "计算机类",
+          "stock": 14,
+          "left": 3,
+          "publishTime": "2018-04-15",
+          "price": "20",
+          "content" :"本书是学习C语言程序设计的基础教程，内容包括C语言概述、顺序结构程序设计、分支结构程序设计、循环结构程序设计、数组、函数、指针、结构体、文件等。 本书以程序设计思想的掌握为主线，以编程应用为驱动，通过案例和问题引入内容，由浅入深，循序渐进，重点训练学生的编程思想，能够充分提高学生的编程能力，锻炼学生的工程能力和创新能力，并鼓励学生利用所学C语言知识解决专业的具体问题。 本书是为“卓越工程师教育培养计划”本科专业编写的计算机教材，强化编程能力、工程能力和创新能力； 也可以作为其他应用型本科理工类专业的计算机应用教材。",
+          "images": [
+            { "src": "static/images/7.jpg" }
+          ],
+          "collectors": [],
+          "subscribers": []
+        },
+        {
+          "id": "08",
+          "name": "操作系统",
+          "category": "计算机类",
+          "stock": 14,
+          "left": 3,
+          "publishTime": "2018-04-15",
+          "price": "20",
+          "content" :"本书是学习C语言程序设计的基础教程，内容包括C语言概述、顺序结构程序设计、分支结构程序设计、循环结构程序设计、数组、函数、指针、结构体、文件等。 本书以程序设计思想的掌握为主线，以编程应用为驱动，通过案例和问题引入内容，由浅入深，循序渐进，重点训练学生的编程思想，能够充分提高学生的编程能力，锻炼学生的工程能力和创新能力，并鼓励学生利用所学C语言知识解决专业的具体问题。 本书是为“卓越工程师教育培养计划”本科专业编写的计算机教材，强化编程能力、工程能力和创新能力； 也可以作为其他应用型本科理工类专业的计算机应用教材。",
+          "images": [
+            { "src": "static/images/8.jpg" }
+          ],
+          "collectors": [],
+          "subscribers": []
+        },
+        {
+          "id": "09",
+          "name": "计算机系统结构",
+          "category": "计算机类",
+          "stock": 14,
+          "left": 3,
+          "publishTime": "2018-04-15",
+          "price": "20",
+          "content" :"本书是学习C语言程序设计的基础教程，内容包括C语言概述、顺序结构程序设计、分支结构程序设计、循环结构程序设计、数组、函数、指针、结构体、文件等。 本书以程序设计思想的掌握为主线，以编程应用为驱动，通过案例和问题引入内容，由浅入深，循序渐进，重点训练学生的编程思想，能够充分提高学生的编程能力，锻炼学生的工程能力和创新能力，并鼓励学生利用所学C语言知识解决专业的具体问题。 本书是为“卓越工程师教育培养计划”本科专业编写的计算机教材，强化编程能力、工程能力和创新能力； 也可以作为其他应用型本科理工类专业的计算机应用教材。",
+          "images": [
+            { "src": "static/images/9.jpg" }
+          ],
+          "collectors": [],
+          "subscribers": []
+        },
+        {
+          "id": "10",
+          "name": "计算机网络",
+          "category": "计算机类",
+          "stock": 14,
+          "left": 3,
+          "publishTime": "2018-04-15",
+          "price": "20",
+          "content" :"本书是学习C语言程序设计的基础教程，内容包括C语言概述、顺序结构程序设计、分支结构程序设计、循环结构程序设计、数组、函数、指针、结构体、文件等。 本书以程序设计思想的掌握为主线，以编程应用为驱动，通过案例和问题引入内容，由浅入深，循序渐进，重点训练学生的编程思想，能够充分提高学生的编程能力，锻炼学生的工程能力和创新能力，并鼓励学生利用所学C语言知识解决专业的具体问题。 本书是为“卓越工程师教育培养计划”本科专业编写的计算机教材，强化编程能力、工程能力和创新能力； 也可以作为其他应用型本科理工类专业的计算机应用教材。",
+          "images": [
+            { "src": "static/images/docks.jpg" }
+          ],
+          "collectors": [],
+          "subscribers": []
+        },
+        {
+          "id": "11",
+          "name": "😊😋😛😝😜🤪",
+          "category": "计算机类",
+          "stock": 14,
+          "left": 3,
+          "publishTime": "2018-04-15",
+          "price": "20",
+          "content" :"本书是学习C语言程序设计的基础教程，内容包括C语言概述、顺序结构程序设计、分支结构程序设计、循环结构程序设计、数组、函数、指针、结构体、文件等。 本书以程序设计思想的掌握为主线，以编程应用为驱动，通过案例和问题引入内容，由浅入深，循序渐进，重点训练学生的编程思想，能够充分提高学生的编程能力，锻炼学生的工程能力和创新能力，并鼓励学生利用所学C语言知识解决专业的具体问题。 本书是为“卓越工程师教育培养计划”本科专业编写的计算机教材，强化编程能力、工程能力和创新能力； 也可以作为其他应用型本科理工类专业的计算机应用教材。",
+          "images": [
+            { "src": "static/images/material.jpg" }
+          ],
+          "collectors": [],
+          "subscribers": []
+        },
+        {
+          "id": "12",
+          "name": "数据结构与算法",
+          "category": "计算机类",
+          "stock": 14,
+          "left": 3,
+          "publishTime": "2018-04-15",
+          "price": "20",
+          "content" :"本书是学习C语言程序设计的基础教程，内容包括C语言概述、顺序结构程序设计、分支结构程序设计、循环结构程序设计、数组、函数、指针、结构体、文件等。 本书以程序设计思想的掌握为主线，以编程应用为驱动，通过案例和问题引入内容，由浅入深，循序渐进，重点训练学生的编程思想，能够充分提高学生的编程能力，锻炼学生的工程能力和创新能力，并鼓励学生利用所学C语言知识解决专业的具体问题。 本书是为“卓越工程师教育培养计划”本科专业编写的计算机教材，强化编程能力、工程能力和创新能力； 也可以作为其他应用型本科理工类专业的计算机应用教材。",
+          "images": [
+            { "src": "static/images/4.jpg" },
+            { "src": "static/images/5.jpg" },
+            { "src": "static/images/2.jpg" }
+          ],
+          "collectors": [],
+          "subscribers": []
+        }
+    ]
+}
